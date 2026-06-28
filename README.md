@@ -15,8 +15,7 @@
 
 ## 🌐 Live Application
 
->  **Try the app here:** [heart-disease-predictor.streamlit.app](https://heart-disease-predictor.streamlit.app)  
-> see [Deployment Guide](#-deployment-guide) below
+>  **Try the app here:** [heart-disease-predictor.streamlit.app](https://heart-disease-predictor.streamlit.app)
 
 The web application allows any healthcare worker - pharmacist, nurse, community health extension worker - to enter a patient's routine clinical measurements and receive an instant risk prediction. No coding knowledge required.
 
@@ -32,7 +31,6 @@ The web application allows any healthcare worker - pharmacist, nurse, community 
 7. [Model Performance  In Plain English](#-model-performance--in-plain-english)
 8. [Key Clinical Findings](#-key-clinical-findings)
 9. [For Developers - Running Locally](#-for-developers--running-locally)
-10. [Deployment Guide](#-deployment-guide)
 11. [Project Files](#-project-files)
 12. [Important Limitations](#-important-limitations)
 13. [References](#-references)
@@ -168,7 +166,7 @@ This is the threshold used in the live application.
 
 ## 📱 How to Use the Web App - Step-by-Step Guide
 
-> **Access the app:** [heart-disease-predictor.streamlit.app](https://heart-disease-predictor.streamlit.app)
+> **Access the app:** [https://heartdiseasepredictionmodel-9yussjrrzysfmxscvrb2wa.streamlit.app](https://heart-disease-predictor.streamlit.app)
 
 The app is designed to be used by healthcare workers at the point of care. Here is a complete walkthrough:
 
@@ -443,36 +441,6 @@ heart-disease-prediction/
     ├── 14_cross_validation.png
     └── 15_feature_importance_rf.png
 ```
-
-
-
-## 🚀 Deployment Guide
-
-### Deploying to Streamlit Community Cloud (Free)
-
-1. **Push your code to GitHub**
-   ```bash
-   git add .
-   git commit -m "Add heart disease prediction app"
-   git push origin main
-   ```
-
-2. **Go to [share.streamlit.io](https://share.streamlit.io)**  
-   Log in with your GitHub account.
-
-3. **Click "New App"**
-   - Repository: `yourusername/heart-disease-prediction`
-   - Branch: `main`
-   - Main file path: `app.py`
-
-4. **Click "Deploy"**  
-   Streamlit will install your `requirements.txt` automatically and launch the app.
-
-5. **Copy your live URL**  
-   It will look like: `https://yourusername-heart-disease-prediction-app-XXXXX.streamlit.app`  
-   Update the link at the top of this README with your actual URL.
-
-> 💡 **Important:** Make sure your `models/` folder and the `.pkl` files are committed to GitHub, or the app will fail to load. If the files are large, consider using Git LFS or regenerating the model on first launch.
 
 
 
