@@ -15,7 +15,7 @@
 
 ## 🌐 Live Application
 
->  **Try the app here:** [heart-disease-predictor.streamlit.app](https://heart-disease-predictor.streamlit.app)
+>  **Try the app here:** [heart-disease-predictor.streamlit.app](https://heartdiseasepredictionmodel-9yussjrrzysfmxscvrb2wa.streamlit.app/)
 
 The web application allows any healthcare worker - pharmacist, nurse, community health extension worker - to enter a patient's routine clinical measurements and receive an instant risk prediction. No coding knowledge required.
 
@@ -166,7 +166,7 @@ This is the threshold used in the live application.
 
 ## 📱 How to Use the Web App - Step-by-Step Guide
 
-> **Access the app:** [https://heartdiseasepredictionmodel-9yussjrrzysfmxscvrb2wa.streamlit.app](https://heart-disease-predictor.streamlit.app)
+> **Access the app:** [https://heartdiseasepredictionmodel-9yussjrrzysfmxscvrb2wa.streamlit.app](https://heartdiseasepredictionmodel-9yussjrrzysfmxscvrb2wa.streamlit.app/)
 
 The app is designed to be used by healthcare workers at the point of care. Here is a complete walkthrough:
 
